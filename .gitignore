@@ -1,1 +1,35 @@
+# ── API Keys — NEVER commit these ──────────────────────────
+*.env
+.env.*
+config.ini
+secrets.py
+api_keys.txt
+ 
+# ── Auto-generated FAISS index — large binary files ─────────
+faiss_index/
+ 
+# ── Jupyter checkpoints ──────────────────────────────────────
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/
+ 
+# ── Python cache ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+ 
+# ── HuggingFace model cache — very large ────────────────────
+.cache/
+~/.cache/huggingface/
+ 
+# ── Excel temporary lock files ───────────────────────────────
+~$*.xls
+~$*.xlsx
+ 
+# ── OS files ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ 
+# ── Windows ──────────────────────────────────────────────────
+*.lnk
+ 

@@ -1,7 +1,7 @@
 # PDHBC Intelligent Debugging Chatbot
 
 > **Phase 1 — Agent Inside Jupyter Notebook**  
-> HSBC Data Engineering Team | Credit Risk Pipeline
+>  Data Engineering Team | Credit Risk Pipeline
 
 ---
 
@@ -48,7 +48,7 @@ The agent combines:
 ## Folder Structure
 
 ```
-HSBC_Conversion/
+Credit_Conversion/
 │
 ├── pdhbc_agent.ipynb                    ← Main agent notebook (entry point)
 │
